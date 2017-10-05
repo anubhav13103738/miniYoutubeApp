@@ -1,4 +1,4 @@
-# ReduxSimpleStarter
+# Mni YouTube App
 
 This is a mini Youtube application that searches and fetches the videos from youtube based on the search keywords the search results are limited to 5 results which is the limited response we get from youtube data v3 api. This is purely built on ReactJS.
 
