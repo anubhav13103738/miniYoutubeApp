@@ -7,6 +7,9 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  resolveLoader: {
+    root: path.join(__dirname, 'node_modules')
+  },
   module: {
     loaders: [{
       exclude: /node_modules/,
