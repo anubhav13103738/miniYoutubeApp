@@ -1,4 +1,3 @@
-var path = require('path');
 module.exports = {
   entry: [
     './src/index.js'
@@ -7,9 +6,6 @@ module.exports = {
     path: __dirname,
     publicPath: '/',
     filename: 'bundle.js'
-  },
-  resolveLoader: {
-    root: path.join(__dirname, 'node_modules')
   },
   module: {
     loaders: [{
