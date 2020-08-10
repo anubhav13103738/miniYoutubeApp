@@ -5,7 +5,7 @@ import YTSearch from 'youtube-api-search';
 import VideoList from './components/videoList/videoList';
 import VideoDetail from './components/videoDetails';
 import _ from 'lodash';
-const API_KEY = 'AIzaSyBholLPbUZ_KhNSXqRCGvEFQr5m14ymuZo';
+const API_KEY = process.env.API_KEY;
 
 //create component and component create html
 // const App = function () {
